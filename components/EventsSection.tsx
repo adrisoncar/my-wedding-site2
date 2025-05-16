@@ -1,0 +1,1 @@
+export default function EventsSection() { return <div>Events Section</div>; }

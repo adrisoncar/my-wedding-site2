@@ -1,0 +1,1 @@
+import Hero from '@/components/Hero'; import EventsSection from '@/components/EventsSection'; import ImageCarousel from '@/components/ImageCarousel'; export default function Home() { return <main><Hero /><EventsSection /><ImageCarousel /></main>; }
