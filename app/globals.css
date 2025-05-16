@@ -1,0 +1,38 @@
+/* app/globals.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;600&display=swap');
+
+:root {
+  --primary-color: #a96c6c; /* Rose gold */
+  --accent-color: #fff0f5;  /* Lavender blush */
+  --font-main: 'Inter', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: var(--font-main);
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-script);
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
